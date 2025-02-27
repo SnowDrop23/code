@@ -23,10 +23,10 @@ void push()
 
 void pop()
 {
-    if(top == -1) printf("Stack Overflow!\n");
+    if(top == -1) printf("Stack Underflow!\n");
     else
     {
-        printf("%d poped from the stack.\n", stack[top]);
+        printf("%d popped from the stack.\n", stack[top]);
         top--;
     }
 }
